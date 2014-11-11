@@ -46,6 +46,7 @@
 		077106DD1A11B63600C88B9A /* ikkuyomu.png in Resources */ = {isa = PBXBuildFile; fileRef = 077106DC1A11B63600C88B9A /* ikkuyomu.png */; };
 		077106DF1A11B76E00C88B9A /* washi01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 077106DE1A11B76E00C88B9A /* washi01.jpg */; };
 		077106E21A11B88C00C88B9A /* toukouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 077106E11A11B88C00C88B9A /* toukouViewController.m */; };
+		077106E41A11DF6700C88B9A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077106E31A11DF6700C88B9A /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,7 @@
 		077106DE1A11B76E00C88B9A /* washi01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = washi01.jpg; sourceTree = "<group>"; };
 		077106E01A11B88C00C88B9A /* toukouViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = toukouViewController.h; sourceTree = "<group>"; };
 		077106E11A11B88C00C88B9A /* toukouViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = toukouViewController.m; sourceTree = "<group>"; };
+		077106E31A11DF6700C88B9A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				077106E41A11DF6700C88B9A /* QuartzCore.framework in Frameworks */,
 				070D267C1A11A262000C753B /* AudioToolbox.framework in Frameworks */,
 				070D267A1A11A257000C753B /* AVFoundation.framework in Frameworks */,
 				070D26781A11A245000C753B /* CoreLocation.framework in Frameworks */,
@@ -141,6 +144,7 @@
 		070D26381A11A148000C753B = {
 			isa = PBXGroup;
 			children = (
+				077106E31A11DF6700C88B9A /* QuartzCore.framework */,
 				070D267B1A11A262000C753B /* AudioToolbox.framework */,
 				070D26791A11A257000C753B /* AVFoundation.framework */,
 				070D26771A11A245000C753B /* CoreLocation.framework */,

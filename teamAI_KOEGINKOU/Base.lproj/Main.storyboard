@@ -169,6 +169,7 @@
                     <tabBarItem key="tabBarItem" title="句を投稿" image="second" id="cPa-gy-q4n"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="kuwokakunin" destination="dU2-rZ-5c5" id="CxB-fV-3u7"/>
                         <outlet property="rokuonStartStopImage" destination="vlF-8W-kcu" id="58p-3m-xaL"/>
                     </connections>
                 </viewController>
