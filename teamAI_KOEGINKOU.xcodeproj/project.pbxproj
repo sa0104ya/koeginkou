@@ -15,6 +15,24 @@
 		070D26551A11A148000C753B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 070D26541A11A148000C753B /* Images.xcassets */; };
 		070D26581A11A148000C753B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070D26561A11A148000C753B /* LaunchScreen.xib */; };
 		070D26641A11A149000C753B /* teamAI_KOEGINKOUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 070D26631A11A149000C753B /* teamAI_KOEGINKOUTests.m */; };
+		070D266E1A11A1E7000C753B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070D266D1A11A1E7000C753B /* MobileCoreServices.framework */; };
+		070D26701A11A1F5000C753B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070D266F1A11A1F5000C753B /* SystemConfiguration.framework */; };
+		070D26721A11A201000C753B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070D26711A11A201000C753B /* MapKit.framework */; };
+		070D26741A11A210000C753B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070D26731A11A210000C753B /* Foundation.framework */; };
+		070D26761A11A23D000C753B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070D26751A11A23D000C753B /* CoreGraphics.framework */; };
+		070D26781A11A245000C753B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070D26771A11A245000C753B /* CoreLocation.framework */; };
+		070D267A1A11A257000C753B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070D26791A11A257000C753B /* AVFoundation.framework */; };
+		070D267C1A11A262000C753B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070D267B1A11A262000C753B /* AudioToolbox.framework */; };
+		070D267F1A11A2AB000C753B /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 070D267E1A11A2AB000C753B /* CustomAnnotation.m */; };
+		070D26821A11A39D000C753B /* bunkanomoriViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070D26811A11A39D000C753B /* bunkanomoriViewController.m */; };
+		070D26851A11A3D2000C753B /* bizanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070D26841A11A3D1000C753B /* bizanViewController.m */; };
+		070D26881A11A40B000C753B /* tokushimajoukouenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070D26871A11A40B000C753B /* tokushimajoukouenViewController.m */; };
+		070D268A1A11A455000C753B /* 3-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 070D26891A11A455000C753B /* 3-1.png */; };
+		070D268C1A11A461000C753B /* 1-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 070D268B1A11A461000C753B /* 1-1.png */; };
+		070D268E1A11A46A000C753B /* 2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 070D268D1A11A46A000C753B /* 2-1.png */; };
+		070D26901A11A473000C753B /* haiku2.png in Resources */ = {isa = PBXBuildFile; fileRef = 070D268F1A11A473000C753B /* haiku2.png */; };
+		070D26921A11A47D000C753B /* saisei.png in Resources */ = {isa = PBXBuildFile; fileRef = 070D26911A11A47D000C753B /* saisei.png */; };
+		070D26941A11A48D000C753B /* haikupost.png in Resources */ = {isa = PBXBuildFile; fileRef = 070D26931A11A48D000C753B /* haikupost.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +61,28 @@
 		070D265D1A11A149000C753B /* teamAI_KOEGINKOUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = teamAI_KOEGINKOUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		070D26621A11A149000C753B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		070D26631A11A149000C753B /* teamAI_KOEGINKOUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = teamAI_KOEGINKOUTests.m; sourceTree = "<group>"; };
+		070D266D1A11A1E7000C753B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		070D266F1A11A1F5000C753B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		070D26711A11A201000C753B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		070D26731A11A210000C753B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		070D26751A11A23D000C753B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		070D26771A11A245000C753B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		070D26791A11A257000C753B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		070D267B1A11A262000C753B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		070D267D1A11A2AB000C753B /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		070D267E1A11A2AB000C753B /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
+		070D26801A11A39D000C753B /* bunkanomoriViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bunkanomoriViewController.h; sourceTree = "<group>"; };
+		070D26811A11A39D000C753B /* bunkanomoriViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bunkanomoriViewController.m; sourceTree = "<group>"; };
+		070D26831A11A3D1000C753B /* bizanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bizanViewController.h; sourceTree = "<group>"; };
+		070D26841A11A3D1000C753B /* bizanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bizanViewController.m; sourceTree = "<group>"; };
+		070D26861A11A40B000C753B /* tokushimajoukouenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tokushimajoukouenViewController.h; sourceTree = "<group>"; };
+		070D26871A11A40B000C753B /* tokushimajoukouenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tokushimajoukouenViewController.m; sourceTree = "<group>"; };
+		070D26891A11A455000C753B /* 3-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-1.png"; sourceTree = "<group>"; };
+		070D268B1A11A461000C753B /* 1-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-1.png"; sourceTree = "<group>"; };
+		070D268D1A11A46A000C753B /* 2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-1.png"; sourceTree = "<group>"; };
+		070D268F1A11A473000C753B /* haiku2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haiku2.png; sourceTree = "<group>"; };
+		070D26911A11A47D000C753B /* saisei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saisei.png; sourceTree = "<group>"; };
+		070D26931A11A48D000C753B /* haikupost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikupost.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +90,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				070D267C1A11A262000C753B /* AudioToolbox.framework in Frameworks */,
+				070D267A1A11A257000C753B /* AVFoundation.framework in Frameworks */,
+				070D26781A11A245000C753B /* CoreLocation.framework in Frameworks */,
+				070D26761A11A23D000C753B /* CoreGraphics.framework in Frameworks */,
+				070D26741A11A210000C753B /* Foundation.framework in Frameworks */,
+				070D26721A11A201000C753B /* MapKit.framework in Frameworks */,
+				070D26701A11A1F5000C753B /* SystemConfiguration.framework in Frameworks */,
+				070D266E1A11A1E7000C753B /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +114,14 @@
 		070D26381A11A148000C753B = {
 			isa = PBXGroup;
 			children = (
+				070D267B1A11A262000C753B /* AudioToolbox.framework */,
+				070D26791A11A257000C753B /* AVFoundation.framework */,
+				070D26771A11A245000C753B /* CoreLocation.framework */,
+				070D26751A11A23D000C753B /* CoreGraphics.framework */,
+				070D26731A11A210000C753B /* Foundation.framework */,
+				070D26711A11A201000C753B /* MapKit.framework */,
+				070D266F1A11A1F5000C753B /* SystemConfiguration.framework */,
+				070D266D1A11A1E7000C753B /* MobileCoreServices.framework */,
 				070D26431A11A148000C753B /* teamAI_KOEGINKOU */,
 				070D26601A11A149000C753B /* teamAI_KOEGINKOUTests */,
 				070D26421A11A148000C753B /* Products */,
@@ -84,12 +140,20 @@
 		070D26431A11A148000C753B /* teamAI_KOEGINKOU */ = {
 			isa = PBXGroup;
 			children = (
+				070D267D1A11A2AB000C753B /* CustomAnnotation.h */,
+				070D267E1A11A2AB000C753B /* CustomAnnotation.m */,
 				070D26481A11A148000C753B /* AppDelegate.h */,
 				070D26491A11A148000C753B /* AppDelegate.m */,
 				070D264B1A11A148000C753B /* FirstViewController.h */,
 				070D264C1A11A148000C753B /* FirstViewController.m */,
 				070D264E1A11A148000C753B /* SecondViewController.h */,
 				070D264F1A11A148000C753B /* SecondViewController.m */,
+				070D26801A11A39D000C753B /* bunkanomoriViewController.h */,
+				070D26811A11A39D000C753B /* bunkanomoriViewController.m */,
+				070D26831A11A3D1000C753B /* bizanViewController.h */,
+				070D26841A11A3D1000C753B /* bizanViewController.m */,
+				070D26861A11A40B000C753B /* tokushimajoukouenViewController.h */,
+				070D26871A11A40B000C753B /* tokushimajoukouenViewController.m */,
 				070D26511A11A148000C753B /* Main.storyboard */,
 				070D26541A11A148000C753B /* Images.xcassets */,
 				070D26561A11A148000C753B /* LaunchScreen.xib */,
@@ -101,6 +165,12 @@
 		070D26441A11A148000C753B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				070D26931A11A48D000C753B /* haikupost.png */,
+				070D26911A11A47D000C753B /* saisei.png */,
+				070D268F1A11A473000C753B /* haiku2.png */,
+				070D268D1A11A46A000C753B /* 2-1.png */,
+				070D268B1A11A461000C753B /* 1-1.png */,
+				070D26891A11A455000C753B /* 3-1.png */,
 				070D26451A11A148000C753B /* Info.plist */,
 				070D26461A11A148000C753B /* main.m */,
 			);
@@ -204,9 +274,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				070D268E1A11A46A000C753B /* 2-1.png in Resources */,
+				070D26901A11A473000C753B /* haiku2.png in Resources */,
 				070D26531A11A148000C753B /* Main.storyboard in Resources */,
+				070D26921A11A47D000C753B /* saisei.png in Resources */,
+				070D268C1A11A461000C753B /* 1-1.png in Resources */,
 				070D26581A11A148000C753B /* LaunchScreen.xib in Resources */,
 				070D26551A11A148000C753B /* Images.xcassets in Resources */,
+				070D26941A11A48D000C753B /* haikupost.png in Resources */,
+				070D268A1A11A455000C753B /* 3-1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				070D26881A11A40B000C753B /* tokushimajoukouenViewController.m in Sources */,
+				070D26821A11A39D000C753B /* bunkanomoriViewController.m in Sources */,
+				070D267F1A11A2AB000C753B /* CustomAnnotation.m in Sources */,
 				070D26501A11A148000C753B /* SecondViewController.m in Sources */,
+				070D26851A11A3D2000C753B /* bizanViewController.m in Sources */,
 				070D264A1A11A148000C753B /* AppDelegate.m in Sources */,
 				070D264D1A11A148000C753B /* FirstViewController.m in Sources */,
 				070D26471A11A148000C753B /* main.m in Sources */,

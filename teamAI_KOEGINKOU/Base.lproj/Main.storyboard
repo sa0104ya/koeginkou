@@ -1,94 +1,264 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--First-->
+        <!--みなの俳句-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <rect key="frame" x="221" y="279" width="157.5" height="41.5"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
-                                <rect key="frame" x="203" y="329" width="194.5" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Uc2-Ai-3v5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TJD-qT-qED">
+                                <rect key="frame" x="37" y="34" width="300" height="88"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
-                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
-                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="みなの俳句" image="first" id="acW-dT-cKf"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="map" destination="Uc2-Ai-3v5" id="uIk-Cc-fVh"/>
+                        <outlet property="rejonLabel" destination="TJD-qT-qED" id="SEZ-Wt-rc2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
+            <point key="canvasLocation" x="749.5" y="-537.5"/>
         </scene>
-        <!--Second-->
+        <!--Tokushimajoukouen View Controller-->
+        <scene sceneID="Cbq-Rt-ago">
+            <objects>
+                <viewController storyboardIdentifier="tokushimajoukouenWebView" id="pE5-xQ-fZ7" customClass="tokushimajoukouenViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dnZ-Fj-ks2"/>
+                        <viewControllerLayoutGuide type="bottom" id="xH9-fi-DHK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vO0-4d-6pW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kwl-D5-4aj">
+                                <rect key="frame" x="0.0" y="26" width="375" height="615"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qGu-GG-W9z">
+                                <rect key="frame" x="142" y="637" width="90" height="30"/>
+                                <state key="normal" title="アプリに戻る">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="TR3-pM-re3" kind="unwind" unwindAction="goBackHome:" id="vLe-tW-PCY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="webView" destination="Kwl-D5-4aj" id="y5W-dQ-i33"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X3B-RW-IHt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="TR3-pM-re3" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1141.5" y="-870.5"/>
+        </scene>
+        <!--Bizan View Controller-->
+        <scene sceneID="oKY-82-RFR">
+            <objects>
+                <viewController storyboardIdentifier="bizanWebView" id="O0f-qP-f3s" customClass="bizanViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fm8-x0-T6A"/>
+                        <viewControllerLayoutGuide type="bottom" id="ofF-g9-QiS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zp7-ln-HVe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SUw-bJ-2Ec">
+                                <rect key="frame" x="0.0" y="28" width="375" height="608"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLe-Tv-irs">
+                                <rect key="frame" x="142" y="637" width="90" height="30"/>
+                                <state key="normal" title="アプリに戻る">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="JiE-ET-dNE" kind="unwind" unwindAction="goBackHome:" id="TuZ-Tv-IEm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="webView" destination="SUw-bJ-2Ec" id="BZx-Rz-FIH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MkH-LC-mGL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="JiE-ET-dNE" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1141.5" y="-144.5"/>
+        </scene>
+        <!--句を投稿-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <rect key="frame" x="195" y="279" width="209.5" height="41.5"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vlF-8W-kcu">
+                                <rect key="frame" x="54" y="28" width="266" height="282"/>
+                                <state key="normal" image="1-1.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="rokuonStart:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="n9r-oL-RyP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dU2-rZ-5c5">
+                                <rect key="frame" x="128" y="296" width="138" height="138"/>
+                                <state key="normal" image="saisei.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="rokuonListen:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="uwH-dn-9Zi"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ePL-Wo-Fcp">
+                                <rect key="frame" x="39" y="425" width="292" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="userName:" destination="8rJ-Kc-sve" eventType="editingDidEnd" id="5Q9-A4-GGB"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aL5-h0-7HY">
+                                <rect key="frame" x="242" y="463" width="51" height="45"/>
+                                <state key="normal" title="Button" image="haikupost.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tokushimajoukouentourokuButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="JaT-UV-IXQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wRm-VD-VuR">
+                                <rect key="frame" x="242" y="511" width="51" height="40"/>
+                                <state key="normal" title="Button" image="haikupost.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="bizantourokuButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="UB2-mW-6Pw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ejg-XB-MAi">
+                                <rect key="frame" x="242" y="559" width="51" height="45"/>
+                                <state key="normal" title="Button" image="haikupost.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="bunkanomoritourokuButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="QY0-Dr-KOt"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="徳島城公園吟行地に投稿" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wt5-Ad-eLk">
+                                <rect key="frame" x="47" y="475" width="187" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
-                                <rect key="frame" x="192" y="329" width="215.5" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="眉山吟行地に投稿" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VYr-aE-k5v">
+                                <rect key="frame" x="47" y="520" width="136" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="文化の森吟行地に投稿" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AEs-kh-WhC">
+                                <rect key="frame" x="47" y="571" width="170" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="top" secondItem="zEq-FU-wV5" secondAttribute="bottom" constant="8" symbolic="YES" id="Day-4N-Vmt"/>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="JgO-Fn-dHn"/>
-                            <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
-                            <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
-                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="句を投稿" image="second" id="cPa-gy-q4n"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="bizanTourokuImage" destination="wRm-VD-VuR" id="ns3-76-hVy"/>
+                        <outlet property="bunkanomoriTourokuImage" destination="Ejg-XB-MAi" id="ltt-Wl-cSF"/>
+                        <outlet property="myTextField" destination="ePL-Wo-Fcp" id="O5h-9C-xIR"/>
+                        <outlet property="rokuonStartStopImage" destination="vlF-8W-kcu" id="58p-3m-xaL"/>
+                        <outlet property="tokushimajoukouenTourokuImage" destination="aL5-h0-7HY" id="oan-Ei-Kik"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="360"/>
+            <point key="canvasLocation" x="749.5" y="181.5"/>
+        </scene>
+        <!--Bunkanomori View Controller-->
+        <scene sceneID="j98-nZ-6of">
+            <objects>
+                <viewController storyboardIdentifier="bunkanomoriWebView" id="lMT-jp-iW6" customClass="bunkanomoriViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bPT-0H-vJy"/>
+                        <viewControllerLayoutGuide type="bottom" id="AGz-mg-iYf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6mU-y1-PYN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k8d-Zd-Yqw">
+                                <rect key="frame" x="0.0" y="20" width="375" height="616"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IPD-jp-b5v">
+                                <rect key="frame" x="142" y="637" width="90" height="30"/>
+                                <state key="normal" title="アプリに戻る">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="FDA-PW-XWB" kind="unwind" unwindAction="goBackHome:" id="0DE-wA-SsE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="webView" destination="k8d-Zd-Yqw" id="kVQ-s6-7uS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H5f-3h-BfA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="FDA-PW-XWB" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1141.5" y="585.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
                 <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -105,7 +275,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="1-1.png" width="266" height="282"/>
         <image name="first" width="30" height="30"/>
+        <image name="haikupost.png" width="280" height="282"/>
+        <image name="saisei.png" width="138" height="138"/>
         <image name="second" width="30" height="30"/>
     </resources>
 </document>
