@@ -130,7 +130,7 @@
         NSLog(@"入ってます");
         if ([view.annotation.title isEqualToString:@"徳島城公園:吟行地"]) {
             //webViewに遷移
-            WebViewController *tokushimajoukouenWebView = [self.storyboard instantiateViewControllerWithIdentifier:@"tokushimajoukouenWebView"];
+            tokushimajoukouenViewController *tokushimajoukouenWebView = [self.storyboard instantiateViewControllerWithIdentifier:@"tokushimajoukouenWebView"];
             [self presentViewController:tokushimajoukouenWebView animated:YES completion:nil];
             
         }else if ([view.annotation.title isEqualToString:@"眉山:吟行地"]) {
@@ -140,7 +140,7 @@
             
         }else if ([view.annotation.title isEqualToString:@"文化の森:吟行地"]) {
             //webViewに遷移
-            tsurugisanViewController *bunkanomoriWebView = [self.storyboard instantiateViewControllerWithIdentifier:@"bunkanomoriWebView"];
+            bunkanomoriViewController *bunkanomoriWebView = [self.storyboard instantiateViewControllerWithIdentifier:@"bunkanomoriWebView"];
             [self presentViewController:bunkanomoriWebView animated:YES completion:nil];
             
         }

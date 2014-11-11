@@ -33,6 +33,19 @@
 		070D26901A11A473000C753B /* haiku2.png in Resources */ = {isa = PBXBuildFile; fileRef = 070D268F1A11A473000C753B /* haiku2.png */; };
 		070D26921A11A47D000C753B /* saisei.png in Resources */ = {isa = PBXBuildFile; fileRef = 070D26911A11A47D000C753B /* saisei.png */; };
 		070D26941A11A48D000C753B /* haikupost.png in Resources */ = {isa = PBXBuildFile; fileRef = 070D26931A11A48D000C753B /* haikupost.png */; };
+		077106C91A11B3A000C88B9A /* ikkunokosu.png in Resources */ = {isa = PBXBuildFile; fileRef = 077106C81A11B3A000C88B9A /* ikkunokosu.png */; };
+		077106CB1A11B3A700C88B9A /* setsumei.png in Resources */ = {isa = PBXBuildFile; fileRef = 077106CA1A11B3A700C88B9A /* setsumei.png */; };
+		077106CD1A11B3AF00C88B9A /* katyou.png in Resources */ = {isa = PBXBuildFile; fileRef = 077106CC1A11B3AF00C88B9A /* katyou.png */; };
+		077106CF1A11B3B800C88B9A /* kuwokakunin.png in Resources */ = {isa = PBXBuildFile; fileRef = 077106CE1A11B3B800C88B9A /* kuwokakunin.png */; };
+		077106D11A11B3C100C88B9A /* wa2.png in Resources */ = {isa = PBXBuildFile; fileRef = 077106D01A11B3C100C88B9A /* wa2.png */; };
+		077106D31A11B3CA00C88B9A /* ginkou.png in Resources */ = {isa = PBXBuildFile; fileRef = 077106D21A11B3CA00C88B9A /* ginkou.png */; };
+		077106D51A11B3D300C88B9A /* yomu.png in Resources */ = {isa = PBXBuildFile; fileRef = 077106D41A11B3D300C88B9A /* yomu.png */; };
+		077106D71A11B3DC00C88B9A /* ba.png in Resources */ = {isa = PBXBuildFile; fileRef = 077106D61A11B3DC00C88B9A /* ba.png */; };
+		077106D91A11B3E200C88B9A /* rensyuu.png in Resources */ = {isa = PBXBuildFile; fileRef = 077106D81A11B3E200C88B9A /* rensyuu.png */; };
+		077106DB1A11B3EB00C88B9A /* yarinaosu.png in Resources */ = {isa = PBXBuildFile; fileRef = 077106DA1A11B3EB00C88B9A /* yarinaosu.png */; };
+		077106DD1A11B63600C88B9A /* ikkuyomu.png in Resources */ = {isa = PBXBuildFile; fileRef = 077106DC1A11B63600C88B9A /* ikkuyomu.png */; };
+		077106DF1A11B76E00C88B9A /* washi01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 077106DE1A11B76E00C88B9A /* washi01.jpg */; };
+		077106E21A11B88C00C88B9A /* toukouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 077106E11A11B88C00C88B9A /* toukouViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +96,20 @@
 		070D268F1A11A473000C753B /* haiku2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haiku2.png; sourceTree = "<group>"; };
 		070D26911A11A47D000C753B /* saisei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saisei.png; sourceTree = "<group>"; };
 		070D26931A11A48D000C753B /* haikupost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikupost.png; sourceTree = "<group>"; };
+		077106C81A11B3A000C88B9A /* ikkunokosu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ikkunokosu.png; sourceTree = "<group>"; };
+		077106CA1A11B3A700C88B9A /* setsumei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setsumei.png; sourceTree = "<group>"; };
+		077106CC1A11B3AF00C88B9A /* katyou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = katyou.png; sourceTree = "<group>"; };
+		077106CE1A11B3B800C88B9A /* kuwokakunin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kuwokakunin.png; sourceTree = "<group>"; };
+		077106D01A11B3C100C88B9A /* wa2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wa2.png; sourceTree = "<group>"; };
+		077106D21A11B3CA00C88B9A /* ginkou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ginkou.png; sourceTree = "<group>"; };
+		077106D41A11B3D300C88B9A /* yomu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yomu.png; sourceTree = "<group>"; };
+		077106D61A11B3DC00C88B9A /* ba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ba.png; sourceTree = "<group>"; };
+		077106D81A11B3E200C88B9A /* rensyuu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rensyuu.png; sourceTree = "<group>"; };
+		077106DA1A11B3EB00C88B9A /* yarinaosu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yarinaosu.png; sourceTree = "<group>"; };
+		077106DC1A11B63600C88B9A /* ikkuyomu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ikkuyomu.png; sourceTree = "<group>"; };
+		077106DE1A11B76E00C88B9A /* washi01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = washi01.jpg; sourceTree = "<group>"; };
+		077106E01A11B88C00C88B9A /* toukouViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = toukouViewController.h; sourceTree = "<group>"; };
+		077106E11A11B88C00C88B9A /* toukouViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = toukouViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +182,8 @@
 				070D26861A11A40B000C753B /* tokushimajoukouenViewController.h */,
 				070D26871A11A40B000C753B /* tokushimajoukouenViewController.m */,
 				070D26511A11A148000C753B /* Main.storyboard */,
+				077106E01A11B88C00C88B9A /* toukouViewController.h */,
+				077106E11A11B88C00C88B9A /* toukouViewController.m */,
 				070D26541A11A148000C753B /* Images.xcassets */,
 				070D26561A11A148000C753B /* LaunchScreen.xib */,
 				070D26441A11A148000C753B /* Supporting Files */,
@@ -165,6 +194,18 @@
 		070D26441A11A148000C753B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				077106DE1A11B76E00C88B9A /* washi01.jpg */,
+				077106DC1A11B63600C88B9A /* ikkuyomu.png */,
+				077106DA1A11B3EB00C88B9A /* yarinaosu.png */,
+				077106D81A11B3E200C88B9A /* rensyuu.png */,
+				077106D61A11B3DC00C88B9A /* ba.png */,
+				077106D41A11B3D300C88B9A /* yomu.png */,
+				077106D21A11B3CA00C88B9A /* ginkou.png */,
+				077106D01A11B3C100C88B9A /* wa2.png */,
+				077106CE1A11B3B800C88B9A /* kuwokakunin.png */,
+				077106CC1A11B3AF00C88B9A /* katyou.png */,
+				077106CA1A11B3A700C88B9A /* setsumei.png */,
+				077106C81A11B3A000C88B9A /* ikkunokosu.png */,
 				070D26931A11A48D000C753B /* haikupost.png */,
 				070D26911A11A47D000C753B /* saisei.png */,
 				070D268F1A11A473000C753B /* haiku2.png */,
@@ -275,14 +316,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				070D268E1A11A46A000C753B /* 2-1.png in Resources */,
+				077106DF1A11B76E00C88B9A /* washi01.jpg in Resources */,
 				070D26901A11A473000C753B /* haiku2.png in Resources */,
+				077106CF1A11B3B800C88B9A /* kuwokakunin.png in Resources */,
+				077106D71A11B3DC00C88B9A /* ba.png in Resources */,
 				070D26531A11A148000C753B /* Main.storyboard in Resources */,
+				077106DB1A11B3EB00C88B9A /* yarinaosu.png in Resources */,
+				077106CB1A11B3A700C88B9A /* setsumei.png in Resources */,
+				077106D51A11B3D300C88B9A /* yomu.png in Resources */,
 				070D26921A11A47D000C753B /* saisei.png in Resources */,
+				077106DD1A11B63600C88B9A /* ikkuyomu.png in Resources */,
 				070D268C1A11A461000C753B /* 1-1.png in Resources */,
 				070D26581A11A148000C753B /* LaunchScreen.xib in Resources */,
 				070D26551A11A148000C753B /* Images.xcassets in Resources */,
 				070D26941A11A48D000C753B /* haikupost.png in Resources */,
+				077106C91A11B3A000C88B9A /* ikkunokosu.png in Resources */,
+				077106D31A11B3CA00C88B9A /* ginkou.png in Resources */,
+				077106CD1A11B3AF00C88B9A /* katyou.png in Resources */,
+				077106D11A11B3C100C88B9A /* wa2.png in Resources */,
 				070D268A1A11A455000C753B /* 3-1.png in Resources */,
+				077106D91A11B3E200C88B9A /* rensyuu.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +360,7 @@
 				070D26851A11A3D2000C753B /* bizanViewController.m in Sources */,
 				070D264A1A11A148000C753B /* AppDelegate.m in Sources */,
 				070D264D1A11A148000C753B /* FirstViewController.m in Sources */,
+				077106E21A11B88C00C88B9A /* toukouViewController.m in Sources */,
 				070D26471A11A148000C753B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +552,7 @@
 				070D26691A11A149000C753B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		070D266A1A11A149000C753B /* Build configuration list for PBXNativeTarget "teamAI_KOEGINKOUTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +561,7 @@
 				070D266C1A11A149000C753B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

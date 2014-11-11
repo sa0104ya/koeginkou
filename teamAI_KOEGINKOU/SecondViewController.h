@@ -11,21 +11,10 @@
 #import <AVFoundation/AVFoundation.h>
 #import "AppDelegate.h"
 
-@interface SecondViewController : UIViewController<UITextFieldDelegate>
+@interface SecondViewController : UIViewController
 - (IBAction)rokuonStart:(UIButton *)sender;
 - (IBAction)rokuonListen:(UIButton *)sender;
-- (IBAction)bizantourokuButton:(UIButton *)sender;
-- (IBAction)bunkanomoritourokuButton:(UIButton *)sender;
-
-- (IBAction)tokushimajoukouentourokuButton:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UIButton *rokuonStartStopImage;
-- (IBAction)userName:(UITextField *)sender;
-@property (weak, nonatomic) IBOutlet UITextField *myTextField;
-@property NSString *userName;
-@property NSString *dateString;
-@property (weak, nonatomic) IBOutlet UIButton *tokushimajoukouenTourokuImage;
-@property (weak, nonatomic) IBOutlet UIButton *bizanTourokuImage;
-@property (weak, nonatomic) IBOutlet UIButton *bunkanomoriTourokuImage;
 
 @end
 
